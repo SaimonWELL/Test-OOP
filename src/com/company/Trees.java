@@ -1,13 +1,16 @@
 package com.company;
 
+
 public class Trees extends Plants {
      private int age = 1;
+
 
      public Trees(){}
      public Trees (int height , String name , int age){
          super(height,name);
          this.age=age;
      }
+
 
     public int getAge() {
         return age;

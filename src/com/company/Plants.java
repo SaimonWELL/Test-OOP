@@ -1,8 +1,12 @@
 package com.company;
 
+
+
+
 public class Plants {
      private String name = "Default";
      private int height = 1 ;
+
 
      public Plants() {}
      public Plants(int height, String name) {
@@ -15,6 +19,7 @@ public class Plants {
      public Plants(String name){
          this.name = name;
      }
+
 
     public int getHeight() {
         return height;
@@ -31,6 +36,13 @@ public class Plants {
     public void setName(String name) {
         this.name = name;
     }
+
+
+
+    //public  String printPlants(){
+      //   StringBuilder sb = new StringBuilder();
+
+    //}
 
     public void print(){
         System.out.println("Название:\t" + getName());
